@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: #f1f1f1;
+}
+header{
+    background: #CC2329;
+    height: 100px;
+    width: 100vw;
+}
+
+header .container nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .container nav figure{
+    height: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header .container nav figure img{
+    height: 80%;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header .container nav figure .user{
+    background: initial;
+    width: 40%;
+}
+header .container nav figure span{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+main{
+    background: #f1f1f1;
+    min-height: 72vh;
+}
+main form{
+    background: white;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+footer{
+    width: 100vw;
+    background: #2e2e2e;
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

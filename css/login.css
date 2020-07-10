@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background: #CC2329;
+    height: 100px;
+    width: 100vw;
+}
+
+header .container nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .container nav figure{
+    height: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header .container nav figure img{
+    height: 80%;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header .container nav figure span{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+main{
+    background-color: #f7f7f7;
+    min-height: 75vh;
+}
+main .container h3{
+    margin: 0;
+    padding: 15px 0;
+    color: #2e2e2e;
+    text-decoration: underline;
+}
+main .container form{
+    background: white;
+    width: 60%;
+    padding: 20px 20px;
+}
+main .container form .btn.btn-login{
+    background: #2e2e2e;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    width: 100vw;
+    background: #2e2e2e;
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

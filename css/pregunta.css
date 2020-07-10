@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: #f1f1f1;
+}
+header{
+    background: #CC2329;
+    height: 100px;
+    width: 100vw;
+}
+
+header .container nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .container nav figure{
+    height: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header .container nav figure img{
+    height: 80%;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header .container nav figure .user{
+    background: initial;
+    width: 40%;
+}
+header .container nav figure span{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+main{
+    background: #f1f1f1;
+    min-height: 74vh;
+}
+main .container .Pregunta{
+    background: white;
+    min-height: 74vh;
+}
+main .container .Pregunta .tituloPregunta{
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+main .container .Pregunta .respuestaPregunta{
+    padding: 0px 20px;
+    
+}
+main .container .Pregunta .comentarios{
+    padding: 0 20px;
+    width: 50%;
+}
+main .container .Pregunta .comentarios .datos{
+    padding: 10px;
+}
+main .container .Pregunta .comentarios .datos h6{
+    font-weight: bold;
+    margin: 0;
+}
+main .container .Pregunta .comentarios .datos small{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 10px;
+}
+main .container .Pregunta .comentarios .datos p{
+    padding: 0 10px;
+    font-size: 13px;
+}
+main .container .Pregunta .comentarios form{
+    text-align: right;
+}
+main .container .Pregunta .comentarios form button{
+    background: #CC2329;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .8);
+    outline: 0;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100vw;
+    background: #2e2e2e;
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

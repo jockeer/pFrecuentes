@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background: #CC2329;
+    height: 100px;
+    width: 100vw;
+}
+
+header .container nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .container nav figure{
+    height: inherit;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header .container nav figure img{
+    height: 80%;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header .container nav figure .user{
+    background: initial;
+    width: 40%;
+}
+header .container nav figure span{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+section .jumbotron{
+    margin: 0;
+}
+section .jumbotron .container .containerInput{
+    text-align: center;
+}
+section .jumbotron .container .containerInput form button{
+    border: none;
+    background: #CC2329;
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .8);
+}
+section .jumbotron .container .form-control{
+    display: initial;
+    width: 50%;
+}
+section .jumbotron .container .display-5{
+    text-align: center;
+}
+
+main{
+    background: #f7f7f7;
+    min-height: 40vh;
+}
+main .container{
+    background-color: white;
+}
+main .container h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0;
+    color: #3a3a3a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main .container .containerPreguntas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+} 
+main .container .containerPreguntas .categoria h5{ 
+    color: #CC2329;
+    font-weight: bold;
+}
+main .container .containerPreguntas .categoria ul{
+    list-style: none;
+    margin-top: 30px;
+} 
+
+footer{
+    width: 100vw;
+    background: #2e2e2e;
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
